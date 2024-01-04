@@ -261,5 +261,8 @@ class UserInterface(GenerateSentences):
             print('You must input yes or no')
             return self.play_again()
 
+def main():
+    UserInterface()
 
-UserInterface()
+if __name__ == '__main__':
+    main()
